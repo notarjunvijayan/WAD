@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="main.css" >
+	<title>KSRTC</title>
+</head>
+<body>
+	<nav>
+		<img src="logo.png">
+		<ul class="nav-links">
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="#">BOOKING</a></li>
+			<li><a href="aboutus.html">ABOUT US</a></li>
+		</ul>
+	</nav>
+	<div class="content">
+		<img src="bookingbanner.jpg" class="banner-img">
+		<div class="content-text">
+			<h1>BOOKING</h1>
+			<p>
+			Book your KSTRC tickets here.
+			</p>	
+			<form class="booking">
+				<div class="element">
+					<label for="Departure">Going from:</label>
+				<select id="Departure" name="Departure">
+				  <option value="palakkad">Palakkad</option>
+				  <option value="saab">Thrissur</option>
+				  <option value="fiat">Ernakulam</option>
+				  <option value="audi">Kottayam</option>
+				  <option value="audi">Kozhikode</option>
+				  <option value="audi">Kannur</option>
+				  <option value="audi">Alappuzha</option>
+				  <option value="audi">Malappuram</option>
+				</select> 
+				</div>
+				<div class="element"><label for="Arrival">Going to:</label>
+					<select id="Arrival" name="Arrival">
+					  <option value="palakkad">Ernakulam</option>
+					  <option value="saab">Thrissur</option>
+					  <option value="fiat">Palakkad</option>
+					  <option value="audi">Kottayam</option>
+					  <option value="audi">Kozhikode</option>
+					  <option value="audi">Kannur</option>
+					  <option value="audi">Alappuzha</option>
+					  <option value="audi">Malappuram</option>
+					</select> </div>
+					<br>
+				<div class="element">
+					<label for="Departure-date">Departure:</label>
+					<input type="date" class="date" name="birthday"> 
+				</div>
+				<div class="element"><label for="Arrival-date">Arrival:</label>
+					<input type="date" class="date" name="birthday"></div> 
+				<input class="checkbooking"type="submit" value="Check for Tickets">
+			</form>
+		</div>
+	</div>
+	<footer>
+		<p>Made by Arjun Vijayan</p>
+	</footer>
+</body>
+</html>

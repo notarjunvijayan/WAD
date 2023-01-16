@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+    scroll-snap-type: y mandatory;
+    background-color: #efb228;
+    font-family: 'Quicksand';
+    font-weight: 700;
+}
+::-moz-selection { /* Code for Firefox */
+    color: #87c9f3;
+    background: #313638;
+}
+.banner{
+    height: 90vh;
+}
+::selection {
+    color: #87c9f3;
+    background: #313638;
+}
+section{
+    width:100vw;
+    display: flex;
+    
+}
+.navbar-brand{
+    font-family: 'Pacifico',cursive;
+    color: #313638;
+    width: 100vw;
+    text-align: center;
+}
+#second{ 
+    height:100vh; 
+    background-color: #87c9f3;
+}
+#third{
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+}
+.banner-button{
+    background-color: #efb228;
+    border:1px solid #313638;
+    color: #313638;
+}
+.banner-button:hover{
+    background-color: #313638;
+    color: #f3cb2c;
+    border: 1px solid #313638;
+    transition: 0.25s;
+}
+.form-control{
+    background-color: #87c9f3;
+    border: 1px solid #313638;
+    height: 3vw;
+    font-size: 1.2vw;
+}
+.profile{
+    background-color: #efb228;
+    border:1px solid #313638;
+    color: #313638;
+}
+.profile:hover{
+    background-color: #313638;
+        color: #f3cb2c;
+        border: 1px solid #313638;
+}
+#third h3{
+    text-align: center;
+    font-size: 15vw;
+}
+#third p{
+    font-size: 2vw;
+    text-align: center;
+}
+
+@media screen and (max-width:700px){
+    .top{
+        visibility: hidden;
+    }
+    .banner{
+        visibility:collapse;
+    }
+    .banner-text{
+        width:100vw;
+        text-align: center;
+        margin-top: 20vh;
+        margin-left: 27vw;
+    }
+    .booking-img{
+        position: absolute;
+    }
+    #booking-img{
+        width:100vw;
+    }
+    .booking-text{
+        position: absolute;
+        margin-top:67vw;
+        text-align: center;
+        width: 100vw;
+        margin-left: 25vw;
+        font-size: smaller;
+    }
+    .button-booking{
+        background-color: #87c9f3;
+        border: 1px solid#313638;
+        border-radius: 0.25rem;
+    }
+    .button-booking:hover{
+        background-color: #313638;
+        color: #87c9f3;
+        transition: 0.25s;
+    }
+}
+@media screen and (min-width:700px ) {
+    h3{
+        font-size: 4vw;
+    }
+    .top{
+        position: fixed;
+        margin-top: 95vh;
+        margin-left:94vw;
+        width:6vw;
+        height: 5vh;
+        background-color: #313638;
+        z-index: 3;
+        padding: 0.9vh 0.8vw;
+        color:#f3cb2c;
+        font-family: 'Quicksand';
+        border: 0;
+        font-size: 1vw;
+    }
+    .top:hover{
+        color:#87c9f3;
+        text-decoration: none;
+    }
+    .navbar{
+        background-color: #efb228;
+        padding: 0%;
+        height: 10vh;
+    }
+    .banner{
+        background: url(bus.gif);
+        background-size: 50vw;
+        background-repeat: no-repeat;
+    }
+    .navbar-brand{
+        margin-right :56vw;
+        margin-left:1vw;
+        font-size: 2vw;
+    }
+    .navbar-brand:hover{
+        color: #313638;
+    }
+    .nav-item{
+        width:12vw;
+        font-family: 'Quicksand',cursive;
+        height: 10vh;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-item:hover{
+        background-color: #313638;
+        color: #f3cb2c;
+        transition: 0.5s;
+    }
+    .nav-link{
+        color:#313638;
+    }
+    .nav-link:hover{
+        color: #f3cb2c;
+    }
+    #link{
+        margin:0% !important;
+        padding:0% !important; 
+    }
+    .banner-text{
+        padding: 30vh 10vw 0 10vw;
+        text-align: end;
+    }
+    h2{
+        font-size: 7vw;
+    }
+    p{
+        font-weight: 500;
+        margin-bottom:0%;
+        padding: 0 1vw;
+    }
+    .banner-button{
+        margin-top:3vh;
+        width: 10vw;
+        background-color: #efb228;
+        border:1px solid #313638;
+        color: #313638;
+    }
+    .banner-button:hover{
+        background-color: #313638;
+        color: #f3cb2c;
+        border: 1px solid #313638;
+        transition: 0.25s;
+    }
+    #booking-img{
+        margin-top:15vh;
+        width:50vw;
+    }
+    .booking-text{
+        padding: 30vh 10vw 0 10vw;
+    }
+    form{
+        padding-top:3vw;
+    }
+    .form-control{
+        margin-bottom: 1vh;
+    }
+    .button-booking{
+        background-color: #87c9f3;
+        border: 1px solid#313638;
+        border-radius: 0.25rem;
+        width: 5vw;
+        height:5vh;
+        margin-top: 3vh;
+    }
+    .button-booking:hover{
+        background-color: #313638;
+        color: #87c9f3;
+        transition: 0.25s;
+    }
+    .profile{
+        margin-top:3vh;
+        width: 10vw;
+    }
+    .profile:hover{
+        transition: 0.25s;
+    }
+}
+@media screen and (min-width:1024px) {
+    body{
+        overflow:hidden;
+    }
+}

@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+body{
+    margin:0;
+    background-color:#fff;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+.heading{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 11vw;
+    font-family: 'Arial', sans-serif;
+    font-weight: 50;
+    padding: 1vw;
+}
+.data p{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.input input{
+    height:3vh;
+    background-color: #fff;
+    font-family: 'Montserrat',sans-serif;
+}
+input[type ='text'],input[type = 'password'],input[type='email']{
+    width:30vw;
+    border: #fff;
+    padding: 0.1rem 1rem;
+    border-radius: 43px 43px 43px 43px;
+    -moz-border-radius: 43px 43px 43px 43px;
+    -webkit-border-radius: 43px 43px 43px 43px;
+    -webkit-box-shadow: inset 1px 1px 5px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 1px 1px 5px -3px rgba(0,0,0,0.75);
+    box-shadow: inset 1px 1px 5px -3px rgba(0,0,0,0.75);
+}
+select{
+    height: 3vh;
+    width: 10vw;
+    padding: 0 1rem;
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    border: #fff;
+    border-radius: 43px 43px 43px 43px;
+    -moz-border-radius: 43px 43px 43px 43px;
+    -webkit-border-radius: 43px 43px 43px 43px;
+    -webkit-box-shadow: inset 1px 1px 5px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 1px 1px 5px -3px rgba(0,0,0,0.75);
+    box-shadow: inset 1px 1px 5px -3px rgba(0,0,0,0.75);
+}
+optgroup{
+    font-family: 'Montserrat', sans-serif;
+}
+.form{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input{
+    display: flex;
+}
+.input textarea{
+    width:55vw;
+    height:30vw;
+    margin:1rem;
+    
+}
+textarea{
+    background-color: #fff;
+    border: #fff;
+    border-radius: 43px 43px 43px 43px;
+    -moz-border-radius: 43px 43px 43px 43px;
+    -webkit-border-radius: 43px 43px 43px 43px;
+    -webkit-box-shadow: inset 1px 1px 5px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 1px 1px 5px -3px rgba(0,0,0,0.75);
+    box-shadow: inset 1px 1px 5px -3px rgba(0,0,0,0.75);
+}
+.input-add{
+    display: grid;
+}
+.input p{
+    width:10vw;
+    font-size: 0.7rem;
+    padding: 0 0.25rem;
+}
+label{
+    padding:0.25rem;
+    width:5vw;
+    font-size: 0.9rem;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 200;
+}
+.input div{
+    margin:0;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+select{
+    width:30vw;
+    height: 4vh;
+}
+button{
+    width:15vh;
+    height: 5vh;
+    margin:1rem 0;
+    border: #fff;
+    border-radius: 43px 43px 43px 43px;
+    -moz-border-radius: 43px 43px 43px 43px;
+    -webkit-border-radius: 43px 43px 43px 43px;
+    -webkit-box-shadow: inset 1px 1px 5px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 1px 1px 5px -3px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 5px -3px rgba(0,0,0,0.75);
+}
+form{
+    padding: 2rem;
+    border-radius: 43px 43px 43px 43px;
+    -moz-border-radius: 43px 43px 43px 43px;
+    -webkit-border-radius: 43px 43px 43px 43px;
+    -webkit-box-shadow: -3px 4px 15px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: -3px 4px 15px -3px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 15px -3px rgba(0,0,0,0.75);
+}

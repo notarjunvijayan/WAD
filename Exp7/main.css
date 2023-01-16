@@ -1,0 +1,19 @@
+body{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+    justify-content: center;
+    margin:0;
+}
+.bodyhov{
+    color: whitesmoke;
+    font-family: Arial;
+    background-color:rgb(223, 0, 0);
+}
+.bodyexit{
+    background-color: rgb(50, 104, 48);
+    color:black;
+    font-family: cursive;
+}
