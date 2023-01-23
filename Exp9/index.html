@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="main.css" type="text/css" />
+    <script>
+        $(document).ready(function(){
+            $("button.before").click(function(){
+                $("div.div").before("<p>Before</p>")
+            })
+            $("button.after").click(function(){
+                $("div.div").after("<p>After</p>")
+            })
+            $("button.prepend").click(function(){
+                $("div.div").prepend("Prepend. ")
+            })
+            $("button.append").click(function(){
+                $("div.div").append(". Append")
+            })
+        })
+    </script>
+    <title>JQuery</title>
+</head>
+<body>
+<nav>
+    <h1>JQuery</h1>
+</nav>
+<div class="container">
+    <div class="buttons">
+        <button class="before">before()</button>
+        <button class="after">after()</button>
+        <button class="prepend">prepend()</button>
+        <button class="append">append()</button>
+        <div class="div">This is the main text</div>
+    </div>
+</div>
+</body>
+</html>

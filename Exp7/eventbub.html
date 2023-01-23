@@ -1,0 +1,33 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+  <title>Event Bubbling</title> 
+ <style>
+    body{
+      background-color: beige;
+    }
+  </style>
+</head>  
+<body>  
+  <h1>Bubbling Event in Javascript</h1>
+  <div id="parent">  
+   <button>
+     <h2>Parent</h2>
+   </button>
+    <button id="child">
+      <p>Child</p>
+    </button>  
+  </div>
+  <script>  
+
+      document.getElementById("child").addEventListener("click", function()
+      { alert("This is the child in Event Bubbling.");  
+      },false);  
+  
+   document.getElementById("parent").addEventListener("click", function()
+      { alert("This is the parent in Event Bubbling.");  
+      },false);  
+      
+  </script>  
+</body>  
+</html>  
